@@ -1,0 +1,21 @@
+{
+    "name": "citree",
+    "displayName": "citree",
+    "description": "A dark citrus inspired theme for vs code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Citree",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Citree-color-theme.json"
+            }
+        ]
+    }
+}

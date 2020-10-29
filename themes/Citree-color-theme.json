@@ -1,0 +1,169 @@
+{
+	"name": "Citree",
+	"type": "dark",
+	"colors": {
+		// Editor
+		"editor.background": "#141414",
+		"editor.foreground": "#ADADAD",
+		"editorInfo.foreground": "#faae2f",
+		// Sidebar
+		"sideBarTitle.foreground": "#faae2f",
+		"sideBar.background": "#1f1f1f",
+		"sideBarSectionHeader.background": "#1f1f1f",
+		"sideBar.foreground": "#faae2f",
+		// Activitybar
+		"activityBarBadge.background": "#ff8500",
+		"activityBarBadge.foreground": "#141414",
+		"activityBar.foreground": "#faae2f",
+		"activityBar.background": "#141414",
+		"textLink.foreground": "#ff8500",
+		// Statusbar
+		"statusBar.background": "#141414",
+		"statusBar.foreground": "#faae2f",
+		"statusBar.debuggingBackground": "#faae2f",
+		"statusBar.debuggingForeground": "#141414",
+		"debugExceptionWidget.background": "#141414",
+		"debugExceptionWidget.border": "#faae2f",
+		// Tabbar
+		"tab.activeBackground": "#faae2f",
+		"tab.activeForeground": "#141414",
+		"tab.inactiveBackground": "#1f1f1f",
+		"tab.inactiveForeground": "#faae2f",
+		// Editor Group Header
+		"editorGroupHeader.tabsBackground": "#1f1f1f",
+		"button.foreground": "#1f1f1f",
+		"button.background": "#faae2f",
+		// Misc
+		"breadcrumb.foreground": "#faae2f",
+		"focusBorder": "#1f1f1f",
+		"list.activeSelectionBackground": "#faae2f",
+		"list.activeSelectionForeground": "#1f1f1f",
+		"list.inactiveSelectionBackground": "#faae2f",
+		"list.inactiveSelectionForeground": "#1f1f1f",
+		// Debug
+		"debugToolBar.background": "#faae2f",
+		"debugIcon.startForeground": "#1f1f1f",
+		"debugIcon.stopForeground": "#1f1f1f",
+		"debugIcon.restartForeground": "#1f1f1f",
+		"debugIcon.stepOverForeground": "#1f1f1f",
+		"debugIcon.stepIntoForeground": "#1f1f1f",
+		"debugIcon.pauseForeground": "#1f1f1f",
+		"debugIcon.stepOutForeground": "#1f1f1f",
+		"debugIcon.breakpointForeground": "#faae2f",
+	},
+	"tokenColors": [
+		// Dart Colors
+		{
+			"name": "Import",
+			"scope": [
+				"meta.declaration.dart",
+				"keyword.declaration.dart",
+				"meta.object-literal.key.tsx",
+				"source.tsx",
+				"meta.import.tsx",
+				"meta.tag.attributes.tsx",
+				"variable.other.readwrite.alias.tsx",
+				"entity.name.function.tsx",
+			],
+			"settings": {
+				"foreground": "#D6D6D6",
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.interpolated.single.dart",
+				"string.interpolated.double.dart",
+				"string.quoted.single.tsx",
+				"constant.language.boolean.true.tsx",
+				"constant.numeric.decimal.tsx",
+			],
+			"settings": {
+				"foreground": "#FBD188",
+			}
+		},
+		{
+			"name": "Class",
+			"scope": [
+				"support.class.dart",
+				"keyword.control.import.tsx",
+				"entity.other.attribute-name.tsx",
+				"support.class.component.tsx",
+				"keyword.control.from.tsx",
+				"meta.var.expr.tsx",
+				"keyword.control.default.tsx"
+			],
+			"settings": {
+				"foreground": "#faae2f",
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#546E7A"
+			}
+		},
+		{
+			"name": "Return",
+			"scope": [
+				"keyword.control.dart",
+				"storage.type.primitive.dart",
+				"variable.language.dart",
+				"storage.modifier.dart",
+				"punctuation.terminator.dart",
+				"keyword.control.flow.tsx",
+				"meta.object-binding-pattern-variable.tsx",
+				"keyword.control.export.tsx"
+			],
+			"settings": {
+				"foreground": "#74ffa6",
+			}
+		},
+		{
+			"name": "Decorators",
+			"scope": [
+				"storage.type.annotation.dart",
+				"meta.parameter.object-binding-pattern.tsx",
+			],
+			"settings": {
+				"foreground": "#6DDFF4"
+			}
+		},
+		{
+			"name": "Someting",
+			"scope": [
+				"entity.name.function.dart",
+				"meta.type.annotation.tsx",
+				"meta.embedded.expression.tsx",
+				"punctuation.definition.block.tsx",
+				"meta.function-call.tsx"
+			],
+			"settings": {
+				"foreground": "#ff8500"
+			}
+		},
+		{
+			"name": "Peach",
+			"scope": [
+				"punctuation.definition.block.tsx",
+				"meta.object-binding-pattern-variable.tsx",
+			],
+			"settings": {
+				"foreground": "#f47f6a",
+			}
+		},
+		{
+			"name": "HTML",
+			"scope": [
+				"meta.tag.tsx"
+			],
+			"settings": {
+				"foreground": "#788b94"
+			}
+		},
+	]
+}
