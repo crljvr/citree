@@ -18,5 +18,9 @@
             }
         ]
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/crljvr/citree.git"
+    },
     "publisher": "crljvr"
 }
