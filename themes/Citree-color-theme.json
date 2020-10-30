@@ -60,7 +60,10 @@
 				"string.interpolated.double.dart",
 				"string.quoted.single.tsx",
 				"constant.language.boolean.true.tsx",
-				"constant.numeric.decimal.tsx"
+				"constant.numeric.decimal.tsx",
+				"meta.var.expr.js",
+				"string.quoted.single.js",
+				"string.template.js"
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -77,7 +80,10 @@
 				"meta.var.expr.tsx",
 				"keyword.control.default.tsx",
 				"string.quoted.double.json",
-				"markup.heading.markdown"
+				"markup.heading.markdown",
+				"meta.function-call.js",
+				"meta.template.expression.js",
+				"variable.other.object.property.js",
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -90,7 +96,12 @@
 				"meta.type.annotation.tsx",
 				"meta.embedded.expression.tsx",
 				"punctuation.definition.block.tsx",
-				"meta.function-call.tsx"
+				"meta.function-call.tsx",
+				"meta.brace.round.js",
+				"punctuation.accessor.js",
+				"variable.other.constant.property.js",
+				"constant.numeric.decimal.js",
+				"keyword.operator.logical.js"
 			],
 			"settings": {
 				"foreground": "#ff8500"
@@ -111,7 +122,9 @@
 				"string.json",
 				"source.ignore",
 				"string.unquoted.plain.out.yaml",
-				"meta.paragraph.markdown"
+				"meta.paragraph.markdown",
+				"meta.definition.variable.js",
+				"variable.other.object.js"
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -139,7 +152,8 @@
 			"name": "Sky Blue Crayola",
 			"scope": [
 				"storage.type.annotation.dart",
-				"meta.parameter.object-binding-pattern.tsx"
+				"meta.parameter.object-binding-pattern.tsx",
+				"meta.arrow.js"
 			],
 			"settings": {
 				"foreground": "#6DDFF4"
@@ -166,7 +180,11 @@
 				"keyword.control.flow.tsx",
 				"meta.object-binding-pattern-variable.tsx",
 				"keyword.control.export.tsx",
-				"meta.structure.dictionary.json"
+				"meta.structure.dictionary.json",
+				"storage.type.js",
+				"variable.parameter.js",
+				"meta.block.js",
+				"meta.object.member.js"
 			],
 			"settings": {
 				"foreground": "#74ffa6",
