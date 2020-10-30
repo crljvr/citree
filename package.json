@@ -1,7 +1,7 @@
 {
     "name": "citree",
     "displayName": "citree",
-    "description": "A dark citrus inspired theme for vs code",
+    "description": "A citrus inspired dark theme for vs code",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.50.0"
