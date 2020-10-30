@@ -204,13 +204,6 @@
 				"foreground": "#33FF7E",
 			}
 		},
-		{
-			"name": "Vivid Tangerine",
-			"scope": [],
-			"settings": {
-				"foreground": "#F69D8D",
-			}
-		},
 		// ==================== Reds ====================
 		{
 			"name": "Vivid Tangerine",

@@ -22,5 +22,6 @@
         "type": "git",
         "url": "https://github.com/crljvr/citree.git"
     },
-    "publisher": "crljvr"
+    "publisher": "crljvr",
+    "icon": "images/Citree_logo.png"
 }
