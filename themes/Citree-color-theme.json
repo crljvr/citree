@@ -73,7 +73,6 @@
 			"name": "Bright Yellow Crayola",
 			"scope": [
 				"support.class.dart",
-				"keyword.control.import.tsx",
 				"entity.other.attribute-name.tsx",
 				"support.class.component.tsx",
 				"keyword.control.from.tsx",
@@ -139,13 +138,13 @@
 		},
 		// ==================== Blues ====================
 		{
-			"name": "Cadet",
+			"name": "Blizzard Blue",
 			"scope": [
 				"comment"
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#A1EAF7"
 			}
 		},
 		{
@@ -160,15 +159,22 @@
 			}
 		},
 		{
-			"name": "Light Slate Gray",
+			"name": "Sky Blue Crayola Deeper",
 			"scope": [
 				"meta.tag.tsx"
 			],
 			"settings": {
-				"foreground": "#788b94"
+				"foreground": "#41D6F1"
 			}
 		},
 		// ==================== Greens ====================
+		{
+			"name": "Magic Mint",
+			"scope": [],
+			"settings": {
+				"foreground": "#ADFFCB",
+			}
+		},
 		{
 			"name": "Medium Spring Green",
 			"scope": [
@@ -184,13 +190,35 @@
 				"storage.type.js",
 				"variable.parameter.js",
 				"meta.block.js",
-				"meta.object.member.js"
+				"meta.object.member.js",
+				"keyword.control.import.tsx",
 			],
 			"settings": {
 				"foreground": "#74ffa6",
 			}
 		},
+		{
+			"name": "Spring Green",
+			"scope": [],
+			"settings": {
+				"foreground": "#33FF7E",
+			}
+		},
+		{
+			"name": "Vivid Tangerine",
+			"scope": [],
+			"settings": {
+				"foreground": "#F69D8D",
+			}
+		},
 		// ==================== Reds ====================
+		{
+			"name": "Vivid Tangerine",
+			"scope": [],
+			"settings": {
+				"foreground": "#F69D8D",
+			}
+		},
 		{
 			"name": "Salmon",
 			"scope": [
@@ -199,6 +227,13 @@
 			],
 			"settings": {
 				"foreground": "#f47f6a",
+			}
+		},
+		{
+			"name": "Bittersweet",
+			"scope": [],
+			"settings": {
+				"foreground": "#F36B53",
 			}
 		},
 		// ==================== Blacks ====================
