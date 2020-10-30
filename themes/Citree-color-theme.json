@@ -60,7 +60,7 @@
 				"string.interpolated.double.dart",
 				"string.quoted.single.tsx",
 				"constant.language.boolean.true.tsx",
-				"constant.numeric.decimal.tsx",
+				"constant.numeric.decimal.tsx"
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -75,7 +75,9 @@
 				"support.class.component.tsx",
 				"keyword.control.from.tsx",
 				"meta.var.expr.tsx",
-				"keyword.control.default.tsx"
+				"keyword.control.default.tsx",
+				"string.quoted.double.json",
+				"markup.heading.markdown"
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -106,6 +108,10 @@
 				"meta.tag.attributes.tsx",
 				"variable.other.readwrite.alias.tsx",
 				"entity.name.function.tsx",
+				"string.json",
+				"source.ignore",
+				"string.unquoted.plain.out.yaml",
+				"meta.paragraph.markdown"
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -133,7 +139,7 @@
 			"name": "Sky Blue Crayola",
 			"scope": [
 				"storage.type.annotation.dart",
-				"meta.parameter.object-binding-pattern.tsx",
+				"meta.parameter.object-binding-pattern.tsx"
 			],
 			"settings": {
 				"foreground": "#6DDFF4"
@@ -159,7 +165,8 @@
 				"punctuation.terminator.dart",
 				"keyword.control.flow.tsx",
 				"meta.object-binding-pattern-variable.tsx",
-				"keyword.control.export.tsx"
+				"keyword.control.export.tsx",
+				"meta.structure.dictionary.json"
 			],
 			"settings": {
 				"foreground": "#74ffa6",
@@ -170,7 +177,7 @@
 			"name": "Salmon",
 			"scope": [
 				"punctuation.definition.block.tsx",
-				"meta.object-binding-pattern-variable.tsx",
+				"meta.object-binding-pattern-variable.tsx"
 			],
 			"settings": {
 				"foreground": "#f47f6a",
