@@ -63,7 +63,8 @@
 				"constant.numeric.decimal.tsx",
 				"meta.var.expr.js",
 				"string.quoted.single.js",
-				"string.template.js"
+				"string.template.js",
+				"meta.tag.attributes.js"
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -83,6 +84,9 @@
 				"meta.function-call.js",
 				"meta.template.expression.js",
 				"variable.other.object.property.js",
+				"string.quoted.double.js",
+				"variable.other.readwrite.js",
+				"entity.name.tag.yaml"
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -123,7 +127,9 @@
 				"string.unquoted.plain.out.yaml",
 				"meta.paragraph.markdown",
 				"meta.definition.variable.js",
-				"variable.other.object.js"
+				"variable.other.object.js",
+				"variable.other.readwrite.alias.js",
+				"meta.object-literal.key.js",
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -138,21 +144,11 @@
 		},
 		// ==================== Blues ====================
 		{
-			"name": "Blizzard Blue",
-			"scope": [
-				"comment"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#A1EAF7"
-			}
-		},
-		{
 			"name": "Sky Blue Crayola",
 			"scope": [
 				"storage.type.annotation.dart",
 				"meta.parameter.object-binding-pattern.tsx",
-				"meta.arrow.js"
+				"meta.arrow.js",
 			],
 			"settings": {
 				"foreground": "#6DDFF4"
@@ -170,7 +166,9 @@
 		// ==================== Greens ====================
 		{
 			"name": "Magic Mint",
-			"scope": [],
+			"scope": [
+				"keyword.operator.assignment.js"
+			],
 			"settings": {
 				"foreground": "#ADFFCB",
 			}
@@ -192,6 +190,7 @@
 				"meta.block.js",
 				"meta.object.member.js",
 				"keyword.control.import.tsx",
+				"meta.import.js"
 			],
 			"settings": {
 				"foreground": "#74ffa6",
@@ -216,7 +215,9 @@
 			"name": "Salmon",
 			"scope": [
 				"punctuation.definition.block.tsx",
-				"meta.object-binding-pattern-variable.tsx"
+				"meta.object-binding-pattern-variable.tsx",
+				"punctuation.separator.key-value.mapping.yaml",
+				"punctuation.definition.block.sequence.item.yaml"
 			],
 			"settings": {
 				"foreground": "#f47f6a",
@@ -224,12 +225,36 @@
 		},
 		{
 			"name": "Bittersweet",
-			"scope": [],
+			"scope": [
+				"punctuation.definition.block.js"
+			],
 			"settings": {
 				"foreground": "#F36B53",
 			}
 		},
 		// ==================== Blacks ====================
+		{
+			"name": "Light",
+			"scope": [
+				"meta.tag.js",
+				"meta.tag.without-attributes.js",
+				"string.unquoted.plain.out.yaml",
+			],
+			"settings": {
+				"foreground": "#858585",
+			}
+		},
+		{
+			"name": "Light",
+			"scope": [
+				"comment.line.double-slash.js",
+				"comment"
+			],
+			"settings": {
+				"foreground": "#858585",
+				"fontStyle": "italic"
+			}
+		},
 		{
 			"name": "Eerie Black Lighter",
 			"scope": [],
