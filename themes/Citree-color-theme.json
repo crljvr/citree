@@ -11,6 +11,9 @@
 		"sideBar.background": "#1f1f1f",
 		"sideBarSectionHeader.background": "#1f1f1f",
 		"sideBar.foreground": "#faae2f",
+		"input.background": "#333333",
+		"input.foreground": "#faae2f",
+		"input.placeholderForeground": "#797979",
 		// Activitybar
 		"activityBarBadge.background": "#ff8500",
 		"activityBarBadge.foreground": "#141414",
@@ -33,6 +36,9 @@
 		"editorGroupHeader.tabsBackground": "#1f1f1f",
 		"button.foreground": "#1f1f1f",
 		"button.background": "#faae2f",
+		// Panel
+		"panel.background": "#1f1f1f",
+		"panelSectionHeader.foreground": "#ff0000",
 		// Misc
 		"breadcrumb.foreground": "#faae2f",
 		"focusBorder": "#1f1f1f",
@@ -64,7 +70,9 @@
 				"meta.var.expr.js",
 				"string.quoted.single.js",
 				"string.template.js",
-				"meta.tag.attributes.js"
+				"meta.tag.attributes.js",
+				"entity.name.function.js",
+				"meta.parameter.object-binding-pattern.js"
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -86,7 +94,9 @@
 				"variable.other.object.property.js",
 				"string.quoted.double.js",
 				"variable.other.readwrite.js",
-				"entity.name.tag.yaml"
+				"entity.name.tag.yaml",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js"
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -130,6 +140,7 @@
 				"variable.other.object.js",
 				"variable.other.readwrite.alias.js",
 				"meta.object-literal.key.js",
+				"keyword.control.default.js"
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -167,7 +178,7 @@
 		{
 			"name": "Magic Mint",
 			"scope": [
-				"keyword.operator.assignment.js"
+				"keyword.operator.assignment.js",
 			],
 			"settings": {
 				"foreground": "#ADFFCB",
@@ -190,7 +201,8 @@
 				"meta.block.js",
 				"meta.object.member.js",
 				"keyword.control.import.tsx",
-				"meta.import.js"
+				"meta.import.js",
+				"keyword.control.export.js"
 			],
 			"settings": {
 				"foreground": "#74ffa6",
@@ -217,7 +229,9 @@
 				"punctuation.definition.block.tsx",
 				"meta.object-binding-pattern-variable.tsx",
 				"punctuation.separator.key-value.mapping.yaml",
-				"punctuation.definition.block.sequence.item.yaml"
+				"punctuation.definition.block.sequence.item.yaml",
+				"variable.other.property.js",
+				"storage.type.function.js"
 			],
 			"settings": {
 				"foreground": "#f47f6a",
