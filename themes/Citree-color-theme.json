@@ -72,7 +72,8 @@
 				"string.template.js",
 				"meta.tag.attributes.js",
 				"entity.name.function.js",
-				"meta.parameter.object-binding-pattern.js"
+				"meta.parameter.object-binding-pattern.js",
+				"entity.other.inherited-class.js"
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -96,7 +97,8 @@
 				"variable.other.readwrite.js",
 				"entity.name.tag.yaml",
 				"punctuation.definition.parameters.begin.js",
-				"punctuation.definition.parameters.end.js"
+				"punctuation.definition.parameters.end.js",
+				"entity.name.type.module.js"
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -114,7 +116,7 @@
 				"punctuation.accessor.js",
 				"variable.other.constant.property.js",
 				"constant.numeric.decimal.js",
-				"keyword.operator.logical.js"
+				"keyword.operator.logical.js",
 			],
 			"settings": {
 				"foreground": "#ff8500"
@@ -140,7 +142,9 @@
 				"variable.other.object.js",
 				"variable.other.readwrite.alias.js",
 				"meta.object-literal.key.js",
-				"keyword.control.default.js"
+				"keyword.control.default.js",
+				"entity.name.type.class.js",
+				"variable.object.property.js"
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -159,7 +163,7 @@
 			"scope": [
 				"storage.type.annotation.dart",
 				"meta.parameter.object-binding-pattern.tsx",
-				"meta.arrow.js",
+				"meta.arrow.js"
 			],
 			"settings": {
 				"foreground": "#6DDFF4"
@@ -202,7 +206,9 @@
 				"meta.object.member.js",
 				"keyword.control.import.tsx",
 				"meta.import.js",
-				"keyword.control.export.js"
+				"keyword.control.export.js",
+				"storage.type.class.js",
+				"storage.modifier.js"
 			],
 			"settings": {
 				"foreground": "#74ffa6",
