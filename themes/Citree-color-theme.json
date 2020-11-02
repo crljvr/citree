@@ -46,6 +46,9 @@
 		"list.activeSelectionForeground": "#1f1f1f",
 		"list.inactiveSelectionBackground": "#faae2f",
 		"list.inactiveSelectionForeground": "#1f1f1f",
+		"list.focusBackground": "#faae2f",
+		"list.focusForeground": "#1f1f1f",
+		"list.inactiveFocusBackground": "#faae2f",
 		// Debug
 		"debugToolBar.background": "#faae2f",
 		"debugIcon.startForeground": "#1f1f1f",
@@ -71,9 +74,9 @@
 				"string.quoted.single.js",
 				"string.template.js",
 				"meta.tag.attributes.js",
-				"entity.name.function.js",
 				"meta.parameter.object-binding-pattern.js",
-				"entity.other.inherited-class.js"
+				"entity.other.inherited-class.js",
+				"meta.jsx.children.js"
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -96,9 +99,9 @@
 				"string.quoted.double.js",
 				"variable.other.readwrite.js",
 				"entity.name.tag.yaml",
-				"punctuation.definition.parameters.begin.js",
-				"punctuation.definition.parameters.end.js",
-				"entity.name.type.module.js"
+				"entity.name.type.module.js",
+				"storage.type.function.arrow.js",
+				"storage.type.function.js"
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -117,6 +120,9 @@
 				"variable.other.constant.property.js",
 				"constant.numeric.decimal.js",
 				"keyword.operator.logical.js",
+				"support.class.component.js",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js",
 			],
 			"settings": {
 				"foreground": "#ff8500"
@@ -144,7 +150,9 @@
 				"meta.object-literal.key.js",
 				"keyword.control.default.js",
 				"entity.name.type.class.js",
-				"variable.object.property.js"
+				"variable.object.property.js",
+				"entity.name.tag.js",
+				"entity.name.function.js",
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -163,7 +171,7 @@
 			"scope": [
 				"storage.type.annotation.dart",
 				"meta.parameter.object-binding-pattern.tsx",
-				"meta.arrow.js"
+				"meta.arrow.js",
 			],
 			"settings": {
 				"foreground": "#6DDFF4"
@@ -172,7 +180,7 @@
 		{
 			"name": "Sky Blue Crayola Deeper",
 			"scope": [
-				"meta.tag.tsx"
+				"meta.tag.tsx",
 			],
 			"settings": {
 				"foreground": "#41D6F1"
@@ -237,7 +245,6 @@
 				"punctuation.separator.key-value.mapping.yaml",
 				"punctuation.definition.block.sequence.item.yaml",
 				"variable.other.property.js",
-				"storage.type.function.js"
 			],
 			"settings": {
 				"foreground": "#f47f6a",
@@ -259,6 +266,7 @@
 				"meta.tag.js",
 				"meta.tag.without-attributes.js",
 				"string.unquoted.plain.out.yaml",
+				"variable.other.object.js"
 			],
 			"settings": {
 				"foreground": "#858585",
