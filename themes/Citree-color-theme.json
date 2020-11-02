@@ -62,17 +62,24 @@
 		{
 			"name": "Deep Champange",
 			"scope": [
-				"string.interpolated.single.dart",
-				"string.interpolated.double.dart",
-				"string.quoted.single.tsx",
-				"constant.language.boolean.true.tsx",
-				"constant.numeric.decimal.tsx",
-				"meta.var.expr.js",
-				"string.quoted.single.js",
-				"string.template.js",
-				"meta.tag.attributes.js",
-				"entity.name.function.js",
-				"meta.parameter.object-binding-pattern.js",
+				// "string.interpolated.single.dart",
+				// "string.interpolated.double.dart",
+				// "string.quoted.single.tsx",
+				// "constant.language.boolean.true.tsx",
+				// "constant.numeric.decimal.tsx",
+				// "meta.var.expr.js",
+				// "string.quoted.single.js",
+				// "string.template.js",
+				// "meta.tag.attributes.js",
+				// "entity.name.function.js",
+				// "meta.parameter.object-binding-pattern.js",
+				// "entity.other.inherited-class.js"
+				"keyword.control.import.js",
+				"storage.type.function.js",
+				"meta.export.default.js",
+				"storage.type.class.js",
+				"storage.modifier.js",
+				"keyword.control.as.js",
 				"entity.other.inherited-class.js"
 			],
 			"settings": {
@@ -82,23 +89,24 @@
 		{
 			"name": "Bright Yellow Crayola",
 			"scope": [
-				"support.class.dart",
-				"entity.other.attribute-name.tsx",
-				"support.class.component.tsx",
-				"keyword.control.from.tsx",
-				"meta.var.expr.tsx",
-				"keyword.control.default.tsx",
-				"string.quoted.double.json",
-				"markup.heading.markdown",
-				"meta.function-call.js",
-				"meta.template.expression.js",
-				"variable.other.object.property.js",
-				"string.quoted.double.js",
-				"variable.other.readwrite.js",
-				"entity.name.tag.yaml",
-				"punctuation.definition.parameters.begin.js",
-				"punctuation.definition.parameters.end.js",
-				"entity.name.type.module.js"
+				// "support.class.dart",
+				// "entity.other.attribute-name.tsx",
+				// "support.class.component.tsx",
+				// "keyword.control.from.tsx",
+				// "meta.var.expr.tsx",
+				// "keyword.control.default.tsx",
+				// "string.quoted.double.json",
+				// "markup.heading.markdown",
+				// "meta.function-call.js",
+				// "meta.template.expression.js",
+				// "variable.other.object.property.js",
+				// "string.quoted.double.js",
+				// "variable.other.readwrite.js",
+				// "entity.name.tag.yaml",
+				// "punctuation.definition.parameters.begin.js",
+				// "punctuation.definition.parameters.end.js",
+				// "entity.name.type.module.js"
+				"entity.name.type.module.js",
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -107,16 +115,19 @@
 		{
 			"name": "Dark Orange",
 			"scope": [
-				"entity.name.function.dart",
-				"meta.type.annotation.tsx",
-				"meta.embedded.expression.tsx",
-				"punctuation.definition.block.tsx",
-				"meta.function-call.tsx",
-				"meta.brace.round.js",
-				"punctuation.accessor.js",
-				"variable.other.constant.property.js",
-				"constant.numeric.decimal.js",
-				"keyword.operator.logical.js",
+				// "entity.name.function.dart",
+				// "meta.type.annotation.tsx",
+				// "meta.embedded.expression.tsx",
+				// "punctuation.definition.block.tsx",
+				// "meta.function-call.tsx",
+				// "meta.brace.round.js",
+				// "punctuation.accessor.js",
+				// "variable.other.constant.property.js",
+				// "constant.numeric.decimal.js",
+				// "keyword.operator.logical.js",
+				"punctuation.definition.block.js",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js"
 			],
 			"settings": {
 				"foreground": "#ff8500"
@@ -126,25 +137,25 @@
 		{
 			"name": "Light Gray",
 			"scope": [
-				"meta.declaration.dart",
-				"keyword.declaration.dart",
-				"meta.object-literal.key.tsx",
-				"source.tsx",
-				"meta.import.tsx",
-				"meta.tag.attributes.tsx",
-				"variable.other.readwrite.alias.tsx",
-				"entity.name.function.tsx",
-				"string.json",
-				"source.ignore",
-				"string.unquoted.plain.out.yaml",
-				"meta.paragraph.markdown",
-				"meta.definition.variable.js",
-				"variable.other.object.js",
-				"variable.other.readwrite.alias.js",
-				"meta.object-literal.key.js",
-				"keyword.control.default.js",
-				"entity.name.type.class.js",
-				"variable.object.property.js"
+				// "meta.declaration.dart",
+				// "keyword.declaration.dart",
+				// "meta.object-literal.key.tsx",
+				// "source.tsx",
+				// "meta.import.tsx",
+				// "meta.tag.attributes.tsx",
+				// "variable.other.readwrite.alias.tsx",
+				// "entity.name.function.tsx",
+				// "string.json",
+				// "source.ignore",
+				// "string.unquoted.plain.out.yaml",
+				// "meta.paragraph.markdown",
+				// "meta.definition.variable.js",
+				// "variable.other.object.js",
+				// "variable.other.readwrite.alias.js",
+				// "meta.object-literal.key.js",
+				// "keyword.control.default.js",
+				// "entity.name.type.class.js",
+				// "variable.object.property.js"
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -161,9 +172,9 @@
 		{
 			"name": "Sky Blue Crayola",
 			"scope": [
-				"storage.type.annotation.dart",
-				"meta.parameter.object-binding-pattern.tsx",
-				"meta.arrow.js"
+				// "storage.type.annotation.dart",
+				// "meta.parameter.object-binding-pattern.tsx",
+				// "meta.arrow.js"
 			],
 			"settings": {
 				"foreground": "#6DDFF4"
@@ -172,7 +183,7 @@
 		{
 			"name": "Sky Blue Crayola Deeper",
 			"scope": [
-				"meta.tag.tsx"
+				// "meta.tag.tsx"
 			],
 			"settings": {
 				"foreground": "#41D6F1"
@@ -182,7 +193,7 @@
 		{
 			"name": "Magic Mint",
 			"scope": [
-				"keyword.operator.assignment.js",
+				// "keyword.operator.assignment.js",
 			],
 			"settings": {
 				"foreground": "#ADFFCB",
@@ -191,24 +202,28 @@
 		{
 			"name": "Medium Spring Green",
 			"scope": [
-				"keyword.control.dart",
-				"storage.type.primitive.dart",
-				"variable.language.dart",
-				"storage.modifier.dart",
-				"punctuation.terminator.dart",
-				"keyword.control.flow.tsx",
-				"meta.object-binding-pattern-variable.tsx",
-				"keyword.control.export.tsx",
-				"meta.structure.dictionary.json",
-				"storage.type.js",
-				"variable.parameter.js",
-				"meta.block.js",
-				"meta.object.member.js",
-				"keyword.control.import.tsx",
-				"meta.import.js",
-				"keyword.control.export.js",
-				"storage.type.class.js",
-				"storage.modifier.js"
+				// "keyword.control.dart",
+				// "storage.type.primitive.dart",
+				// "variable.language.dart",
+				// "storage.modifier.dart",
+				// "punctuation.terminator.dart",
+				// "keyword.control.flow.tsx",
+				// "meta.object-binding-pattern-variable.tsx",
+				// "keyword.control.export.tsx",
+				// "meta.structure.dictionary.json",
+				// "storage.type.js",
+				// "variable.parameter.js",
+				// "meta.block.js",
+				// "meta.object.member.js",
+				// "keyword.control.import.tsx",
+				// "meta.import.js",
+				// "keyword.control.export.js",
+				// "storage.type.class.js",
+				// "storage.modifier.js"
+				"keyword.control.flow.js",
+				"meta.brace.round.js",
+				"entity.name.function.js",
+				"entity.name.type.class.js"
 			],
 			"settings": {
 				"foreground": "#74ffa6",
@@ -232,12 +247,12 @@
 		{
 			"name": "Salmon",
 			"scope": [
-				"punctuation.definition.block.tsx",
-				"meta.object-binding-pattern-variable.tsx",
-				"punctuation.separator.key-value.mapping.yaml",
-				"punctuation.definition.block.sequence.item.yaml",
-				"variable.other.property.js",
-				"storage.type.function.js"
+				// "punctuation.definition.block.tsx",
+				// "meta.object-binding-pattern-variable.tsx",
+				// "punctuation.separator.key-value.mapping.yaml",
+				// "punctuation.definition.block.sequence.item.yaml",
+				// "variable.other.property.js",
+				// "storage.type.function.js"
 			],
 			"settings": {
 				"foreground": "#f47f6a",
@@ -246,7 +261,7 @@
 		{
 			"name": "Bittersweet",
 			"scope": [
-				"punctuation.definition.block.js"
+				// "punctuation.definition.block.js"
 			],
 			"settings": {
 				"foreground": "#F36B53",
@@ -256,9 +271,9 @@
 		{
 			"name": "Light",
 			"scope": [
-				"meta.tag.js",
-				"meta.tag.without-attributes.js",
-				"string.unquoted.plain.out.yaml",
+				// "meta.tag.js",
+				// "meta.tag.without-attributes.js",
+				// "string.unquoted.plain.out.yaml",
 			],
 			"settings": {
 				"foreground": "#858585",
@@ -267,8 +282,8 @@
 		{
 			"name": "Light",
 			"scope": [
-				"comment.line.double-slash.js",
-				"comment"
+				// "comment.line.double-slash.js",
+				// "comment"
 			],
 			"settings": {
 				"foreground": "#858585",
