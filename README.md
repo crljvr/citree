@@ -1,19 +1,21 @@
 ![Citree_Hero](https://github.com/crljvr/citree/blob/main/images/Hero.png?raw=true)
 
-A _citrus inspired_ dark Syntax Theme for [Visual Studio Code](https://code.visualstudio.com).
+**A citrus inspired dark Syntax Theme** for [Visual Studio Code](https://code.visualstudio.com).
 The development has mainly been focused on **React and Flutter** apps, so syntax for other frameworks is not really supported yet.
 
 ---
 
 ## 🥝 Screenshots
 
-![Citree_React](https://github.com/crljvr/citree/blob/main/images/react_caption.png?raw=true)
-
 ⚛️ Citree in **React**
 
-![Citree_Flutter](https://github.com/crljvr/citree/blob/main/images/flutter_caption.png?raw=true)
+
+![Citree_React](https://github.com/crljvr/citree/blob/main/images/react_caption.png?raw=true)
 
 🐦 Citree in **Flutter**
+
+
+![Citree_Flutter](https://github.com/crljvr/citree/blob/main/images/flutter_caption.png?raw=true)
 
 ---
 
