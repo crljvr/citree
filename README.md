@@ -5,15 +5,15 @@ The development has mainly been focused on **React and Flutter** apps, so syntax
 
 ---
 
+## 🥝 Screenshots
+
+![Citree_React](https://github.com/crljvr/citree/blob/main/images/react_caption.png)
+
+⚛️ Citree in **React**
+
 ![Citree_Flutter](https://github.com/crljvr/citree/blob/main/images/flutter_caption.png)
 
-Citree in **🐦 Flutter 🐦**
-
----
-
-![Citree_React](https://github.com/crljvr/citree/blob/main/images/react_caption.gif)
-
-Citree in **⚛️ React ⚛️**
+🐦 Citree in **Flutter**
 
 ---
 
