@@ -1,7 +1,18 @@
-# 🍋 Citree 🍊
-## A citrus inspired dark theme for Visual Studio Code.
+![alt text](https://github.com/crljvr/citree/blob/main/images/Hero.png?raw=true)
 
-This theme is early in development so be sure to reload the installer from time to time.
+A _citrus inspired_ dark Syntax Theme for [Visual Studio Code](https://code.visualstudio.com).
+The development has mainly been focused on **React and Flutter** apps, so syntax for other frameworks is not really supported yet.
 
-So far development is focused on Flutter and React apps so mainly Dart and JS files, but more languages will be supported soon.
+---
 
+## 🍊 Installation
+Preferences:
+
+1. Go to `Extensions`
+2. Search for `Citree` and install.
+3. Go to `Color Themes` and choose `Citree`.
+
+---
+
+## 🍋 Issues and contributing
+Love some support for other languages and frameworks. Just set up a PR and I´ll check it out! ✌️
