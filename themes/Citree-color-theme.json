@@ -178,6 +178,10 @@
 				"storage.type.type.tsx",
 				"meta.parameter.object-binding-pattern.tsx",
 				"storage.type.interface.tsx",
+				// SCSS
+				"entity.name.tag.reference.scss",
+				"punctuation.definition.pseudo-class.begin.bracket.round.css",
+				"punctuation.definition.pseudo-class.end.bracket.round.css",
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -237,6 +241,7 @@
 				"punctuation.section.property-list.end.bracket.curly.css",
 				"punctuation.separator.key-value.css",
 				"punctuation.terminator.rule.css",
+				"punctuation.definition.entity.css",
 				// SCSS
 				"punctuation.section.property-list.begin.bracket.curly.scss",
 				"punctuation.section.property-list.end.bracket.curly.scss",
@@ -386,6 +391,9 @@
 				// SCSS
 				"variable.scss",
 				"keyword.control.at-rule.keyframes.scss",
+				"keyword.control.at-rule.mixin.scss",
+				"keyword.control.at-rule.include.scss",
+				"keyword.control.at-rule.media.scss",
 			],
 			"settings": {
 				"foreground": "#74ffa6",
@@ -412,6 +420,13 @@
 				"support.type.builtin.tsx",
 				"punctuation.section.embedded.begin.tsx",
 				"punctuation.section.embedded.end.tsx",
+				// SCSS
+				"punctuation.definition.interpolation.begin.bracket.curly.scss",
+				"punctuation.definition.interpolation.end.bracket.curly.scss",
+				"punctuation.definition.begin.bracket.round.scss",
+				"punctuation.definition.end.bracket.round.scss",
+				"punctuation.definition.parameters.begin.bracket.round.scss",
+				"punctuation.definition.parameters.end.bracket.round.scss",
 			],
 			"settings": {
 				"foreground": "#F69D8D",
@@ -472,11 +487,16 @@
 				"variable.parameter.keyframe-list.css",
 				"punctuation.section.keyframes.begin.bracket.curly.css",
 				"punctuation.section.keyframes.end.bracket.curly.css",
+				"entity.other.attribute-name.class.css",
+				"entity.name.tag.css",
+				"keyword.operator.css",
 				// SCSS
 				"meta.selector.scss",
 				"variable.parameter.keyframe-list.scss",
 				"punctuation.section.keyframes.begin.bracket.curly.scss",
 				"punctuation.section.keyframes.end.bracket.curly.scss",
+				"entity.name.tag.wildcard.scss",
+				"constant.other.scss",
 			],
 			"settings": {
 				"foreground": "#F36B53",
