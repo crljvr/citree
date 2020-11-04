@@ -62,25 +62,49 @@
 		{
 			"name": "Deep Champange",
 			"scope": [
-				// "string.interpolated.single.dart",
-				// "string.interpolated.double.dart",
-				// "string.quoted.single.tsx",
-				// "constant.language.boolean.true.tsx",
-				// "constant.numeric.decimal.tsx",
-				// "meta.var.expr.js",
-				// "string.quoted.single.js",
-				// "string.template.js",
-				// "meta.tag.attributes.js",
-				// "entity.name.function.js",
-				// "meta.parameter.object-binding-pattern.js",
-				// "entity.other.inherited-class.js"
-				"keyword.control.import.js",
-				"storage.type.function.js",
+				// Dart 
+				"string.interpolated.single.dart",
+				"string.interpolated.double.dart",
+				// Javascript
 				"meta.export.default.js",
-				"storage.type.class.js",
 				"storage.modifier.js",
 				"keyword.control.as.js",
-				"entity.other.inherited-class.js"
+				"entity.other.inherited-class.js",
+				"entity.name.tag.js",
+				"meta.function-call.js",
+				"string.quoted.double.js",
+				"string.quoted.single.js",
+				"keyword.control.from.js",
+				// JSX
+				"meta.export.default.jsx",
+				"storage.modifier.jsx",
+				"keyword.control.as.jsx",
+				"entity.other.inherited-class.jsx",
+				"entity.name.tag.jsx",
+				"meta.function-call.jsx",
+				"string.quoted.double.jsx",
+				"string.quoted.single.jsx",
+				"keyword.control.from.jsx",
+				// Typescript
+				"meta.export.default.ts",
+				"storage.modifier.ts",
+				"keyword.control.as.ts",
+				"entity.other.inherited-class.ts",
+				"entity.name.tag.ts",
+				"meta.function-call.ts",
+				"string.quoted.double.ts",
+				"string.quoted.single.ts",
+				"keyword.control.from.ts",
+				// TSX
+				"meta.export.default.tsx",
+				"storage.modifier.tsx",
+				"keyword.control.as.tsx",
+				"entity.other.inherited-class.tsx",
+				"entity.name.tag.tsx",
+				"meta.function-call.tsx",
+				"string.quoted.double.tsx",
+				"string.quoted.single.tsx",
+				"keyword.control.from.tsx",
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -89,24 +113,46 @@
 		{
 			"name": "Bright Yellow Crayola",
 			"scope": [
-				// "support.class.dart",
-				// "entity.other.attribute-name.tsx",
-				// "support.class.component.tsx",
-				// "keyword.control.from.tsx",
-				// "meta.var.expr.tsx",
-				// "keyword.control.default.tsx",
-				// "string.quoted.double.json",
-				// "markup.heading.markdown",
-				// "meta.function-call.js",
-				// "meta.template.expression.js",
-				// "variable.other.object.property.js",
-				// "string.quoted.double.js",
-				// "variable.other.readwrite.js",
-				// "entity.name.tag.yaml",
-				// "punctuation.definition.parameters.begin.js",
-				// "punctuation.definition.parameters.end.js",
-				// "entity.name.type.module.js"
+				// Dart
+				"support.class.dart",
+				// JSON
+				"string.quoted.double.json",
+				// Markdown
+				"markup.heading.markdown",
+				// Yaml
+				"entity.name.tag.yaml",
+				// Javascript
 				"entity.name.type.module.js",
+				"storage.type.function.js",
+				"storage.type.class.js",
+				"storage.type.js",
+				"keyword.control.import.js",
+				"keyword.control.export.js",
+				"constant.numeric.decimal.js",
+				// JSX
+				"entity.name.type.module.jsx",
+				"storage.type.function.jsx",
+				"storage.type.class.jsx",
+				"storage.type.jsx",
+				"keyword.control.import.jsx",
+				"keyword.control.export.jsx",
+				"constant.numeric.decimal.jsx",
+				// Typescipt
+				"entity.name.type.module.ts",
+				"storage.type.function.ts",
+				"storage.type.class.ts",
+				"storage.type.ts",
+				"keyword.control.import.ts",
+				"keyword.control.export.ts",
+				"constant.numeric.decimal.ts",
+				// TSX
+				"entity.name.type.module.tsx",
+				"storage.type.function.tsx",
+				"storage.type.class.tsx",
+				"storage.type.tsx",
+				"keyword.control.import.tsx",
+				"keyword.control.export.tsx",
+				"constant.numeric.decimal.tsx"
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -115,19 +161,44 @@
 		{
 			"name": "Dark Orange",
 			"scope": [
-				// "entity.name.function.dart",
-				// "meta.type.annotation.tsx",
-				// "meta.embedded.expression.tsx",
-				// "punctuation.definition.block.tsx",
-				// "meta.function-call.tsx",
-				// "meta.brace.round.js",
-				// "punctuation.accessor.js",
-				// "variable.other.constant.property.js",
-				// "constant.numeric.decimal.js",
-				// "keyword.operator.logical.js",
+				// Dart
+				"entity.name.function.dart",
+				// Javascripr
 				"punctuation.definition.block.js",
-				"punctuation.definition.parameters.begin.js",
-				"punctuation.definition.parameters.end.js"
+				"punctuation.definition.parameters.end.js",
+				"entity.name.function.js",
+				"support.class.component.js",
+				"variable.other.readwrite.js",
+				"punctuation.accessor.js",
+				"keyword.operator.spread.js",
+				"punctuation.separator.key-value.js",
+				// JSX
+				"punctuation.definition.block.jsx",
+				"punctuation.definition.parameters.end.jsx",
+				"entity.name.function.jsx",
+				"support.class.component.jsx",
+				"variable.other.readwrite.jsx",
+				"punctuation.accessor.jsx",
+				"keyword.operator.spread.jsx",
+				"punctuation.separator.key-value.jsx",
+				// Typescript
+				"punctuation.definition.block.ts",
+				"punctuation.definition.parameters.end.ts",
+				"entity.name.function.ts",
+				"support.class.component.ts",
+				"variable.other.readwrite.ts",
+				"punctuation.accessor.ts",
+				"keyword.operator.spread.ts",
+				"punctuation.separator.key-value.ts",
+				// TSX
+				"punctuation.definition.block.tsx",
+				"punctuation.definition.parameters.end.tsx",
+				"entity.name.function.tsx",
+				"support.class.component.tsx",
+				"variable.other.readwrite.tsx",
+				"punctuation.accessor.tsx",
+				"keyword.operator.spread.tsx",
+				"punctuation.separator.key-value.tsx",
 			],
 			"settings": {
 				"foreground": "#ff8500"
@@ -137,25 +208,49 @@
 		{
 			"name": "Light Gray",
 			"scope": [
-				// "meta.declaration.dart",
-				// "keyword.declaration.dart",
-				// "meta.object-literal.key.tsx",
-				// "source.tsx",
-				// "meta.import.tsx",
-				// "meta.tag.attributes.tsx",
-				// "variable.other.readwrite.alias.tsx",
-				// "entity.name.function.tsx",
-				// "string.json",
-				// "source.ignore",
-				// "string.unquoted.plain.out.yaml",
-				// "meta.paragraph.markdown",
-				// "meta.definition.variable.js",
-				// "variable.other.object.js",
-				// "variable.other.readwrite.alias.js",
-				// "meta.object-literal.key.js",
-				// "keyword.control.default.js",
-				// "entity.name.type.class.js",
-				// "variable.object.property.js"
+				// Dart
+				"meta.declaration.dart",
+				"keyword.declaration.dart",
+				// JSON
+				"string.json",
+				// .ignore
+				"source.ignore",
+				// Yaml
+				"string.unquoted.plain.out.yaml",
+				// Markdown
+				"meta.paragraph.markdown",
+				// Javascript
+				"meta.block.js",
+				"entity.name.tag.js",
+				"variable.parameter.js",
+				"variable.other.readwrite.js",
+				"entity.name.function.js",
+				"variable.other.constant.js",
+				"entity.name.type.class.js",
+				// JSX
+				"meta.block.jsx",
+				"entity.name.tag.jsx",
+				"variable.parameter.jsx",
+				"variable.other.readwrite.jsx",
+				"entity.name.function.jsx",
+				"variable.other.constant.jsx",
+				"entity.name.type.class.jsx",
+				// Typescript
+				"meta.block.ts",
+				"entity.name.tag.ts",
+				"variable.parameter.ts",
+				"variable.other.readwrite.ts",
+				"entity.name.function.ts",
+				"variable.other.constant.ts",
+				"entity.name.type.class.ts",
+				// TSX
+				"meta.block.tsx",
+				"entity.name.tag.tsx",
+				"variable.parameter.tsx",
+				"variable.other.readwrite.tsx",
+				"entity.name.function.tsx",
+				"variable.other.constant.tsx",
+				"entity.name.type.class.tsx",
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -172,9 +267,8 @@
 		{
 			"name": "Sky Blue Crayola",
 			"scope": [
-				// "storage.type.annotation.dart",
-				// "meta.parameter.object-binding-pattern.tsx",
-				// "meta.arrow.js"
+				// Dart
+				"storage.type.annotation.dart",
 			],
 			"settings": {
 				"foreground": "#6DDFF4"
@@ -182,9 +276,7 @@
 		},
 		{
 			"name": "Sky Blue Crayola Deeper",
-			"scope": [
-				// "meta.tag.tsx"
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#41D6F1"
 			}
@@ -193,7 +285,14 @@
 		{
 			"name": "Magic Mint",
 			"scope": [
-				// "keyword.operator.assignment.js",
+				// Javascript
+				"meta.jsx.children.js",
+				// JSX
+				"meta.jsx.children.jsx",
+				// Typescript
+				"meta.jsx.children.ts",
+				// TSX
+				"meta.jsx.children.tsx",
 			],
 			"settings": {
 				"foreground": "#ADFFCB",
@@ -202,28 +301,30 @@
 		{
 			"name": "Medium Spring Green",
 			"scope": [
-				// "keyword.control.dart",
-				// "storage.type.primitive.dart",
-				// "variable.language.dart",
-				// "storage.modifier.dart",
-				// "punctuation.terminator.dart",
-				// "keyword.control.flow.tsx",
-				// "meta.object-binding-pattern-variable.tsx",
-				// "keyword.control.export.tsx",
-				// "meta.structure.dictionary.json",
-				// "storage.type.js",
-				// "variable.parameter.js",
-				// "meta.block.js",
-				// "meta.object.member.js",
-				// "keyword.control.import.tsx",
-				// "meta.import.js",
-				// "keyword.control.export.js",
-				// "storage.type.class.js",
-				// "storage.modifier.js"
+				// Dart
+				"keyword.control.dart",
+				"storage.type.primitive.dart",
+				"variable.language.dart",
+				"storage.modifier.dart",
+				"punctuation.terminator.dart",
+				// JSON
+				"meta.structure.dictionary.json",
+				// Javascript
 				"keyword.control.flow.js",
 				"meta.brace.round.js",
-				"entity.name.function.js",
-				"entity.name.type.class.js"
+				"variable.language.this.js",
+				// JSX
+				"keyword.control.flow.jsx",
+				"meta.brace.round.jsx",
+				"variable.language.this.jsx",
+				// Typescript
+				"keyword.control.flow.ts",
+				"meta.brace.round.ts",
+				"variable.language.this.ts",
+				// TSX
+				"keyword.control.flow.tsx",
+				"meta.brace.round.tsx",
+				"variable.language.this.tsx",
 			],
 			"settings": {
 				"foreground": "#74ffa6",
@@ -247,12 +348,21 @@
 		{
 			"name": "Salmon",
 			"scope": [
-				// "punctuation.definition.block.tsx",
-				// "meta.object-binding-pattern-variable.tsx",
-				// "punctuation.separator.key-value.mapping.yaml",
-				// "punctuation.definition.block.sequence.item.yaml",
-				// "variable.other.property.js",
-				// "storage.type.function.js"
+				// Yaml
+				"punctuation.separator.key-value.mapping.yaml",
+				"punctuation.definition.block.sequence.item.yaml",
+				// Javascipt
+				"variable.other.readwrite.alias.js",
+				"constant.language.import-export-all.js",
+				// Javascipt
+				"variable.other.readwrite.alias.jsx",
+				"constant.language.import-export-all.jsx",
+				// Typescript
+				"variable.other.readwrite.alias.ts",
+				"constant.language.import-export-all.ts",
+				// Typescript
+				"variable.other.readwrite.alias.tsx",
+				"constant.language.import-export-all.tsx",
 			],
 			"settings": {
 				"foreground": "#f47f6a",
@@ -261,7 +371,18 @@
 		{
 			"name": "Bittersweet",
 			"scope": [
-				// "punctuation.definition.block.js"
+				// Javascipt
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.terminator.statement.js",
+				// JSX
+				"punctuation.definition.parameters.begin.jsx",
+				"punctuation.terminator.statement.jsx",
+				// Typescipt
+				"punctuation.definition.parameters.begin.ts",
+				"punctuation.terminator.statement.ts",
+				// TSX
+				"punctuation.definition.parameters.begin.tsx",
+				"punctuation.terminator.statement.tsx",
 			],
 			"settings": {
 				"foreground": "#F36B53",
@@ -271,23 +392,36 @@
 		{
 			"name": "Light",
 			"scope": [
-				// "meta.tag.js",
-				// "meta.tag.without-attributes.js",
-				// "string.unquoted.plain.out.yaml",
+				// Yaml
+				"string.unquoted.plain.out.yaml",
+				// Javascript
+				"meta.tag.js",
+				"meta.tag.without-attributes.js",
+				"meta.var.expr.js",
+				// JSX
+				"meta.tag.jsx",
+				"meta.tag.without-attributes.jsx",
+				"meta.var.expr.jsx",
+				// Typescript
+				"meta.tag.ts",
+				"meta.tag.without-attributes.ts",
+				"meta.var.expr.ts",
+				// TSX
+				"meta.tag.ts",
+				"meta.tag.without-attributes.ts",
+				"meta.var.expr.ts",
 			],
 			"settings": {
 				"foreground": "#858585",
 			}
 		},
 		{
-			"name": "Light",
+			"name": "Comment Black",
 			"scope": [
-				// "comment.line.double-slash.js",
-				// "comment"
+				"comment"
 			],
 			"settings": {
-				"foreground": "#858585",
-				"fontStyle": "italic"
+				"foreground": "#7a7a7a",
 			}
 		},
 		{
