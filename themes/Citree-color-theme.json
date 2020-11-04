@@ -104,6 +104,7 @@
 				"entity.name.type.interface.ts",
 				"keyword.operator.expression.typeof.ts",
 				"variable.other.property.ts",
+				"keyword.operator.expression.infer.ts",
 				// TSX
 				"meta.export.default.tsx",
 				"storage.modifier.tsx",
@@ -118,6 +119,7 @@
 				"entity.name.type.interface.tsx",
 				"keyword.operator.expression.typeof.tsx",
 				"variable.other.property.tsx",
+				"keyword.operator.expression.infer.tsx",
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -406,9 +408,11 @@
 				// Typescript
 				"variable.other.readwrite.alias.ts",
 				"constant.language.import-export-all.ts",
+				"meta.object-binding-pattern-variable.ts",
 				// Typescript
 				"variable.other.readwrite.alias.tsx",
 				"constant.language.import-export-all.tsx",
+				"meta.object-binding-pattern-variable.tsx",
 			],
 			"settings": {
 				"foreground": "#f47f6a",
@@ -428,6 +432,7 @@
 				"keyword.control.switch.ts",
 				"keyword.operator.arithmetic.ts",
 				"keyword.operator.logical.ts",
+				"keyword.operator.ternary.ts",
 				"new.expr.ts",
 				// TSX
 				"punctuation.terminator.statement.tsx",
@@ -436,6 +441,7 @@
 				"keyword.control.switch.tsx",
 				"keyword.operator.arithmetic.tsx",
 				"keyword.operator.logical.tsx",
+				"keyword.operator.ternary.tsx",
 				"new.expr.tsx",
 			],
 			"settings": {
