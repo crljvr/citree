@@ -100,6 +100,10 @@
 				"string.quoted.double.ts",
 				"string.quoted.single.ts",
 				"keyword.control.from.ts",
+				"entity.name.type.alias.ts",
+				"entity.name.type.interface.ts",
+				"keyword.operator.expression.typeof.ts",
+				"variable.other.property.ts",
 				// TSX
 				"meta.export.default.tsx",
 				"storage.modifier.tsx",
@@ -110,6 +114,10 @@
 				"string.quoted.double.tsx",
 				"string.quoted.single.tsx",
 				"keyword.control.from.tsx",
+				"entity.name.type.alias.tsx",
+				"entity.name.type.interface.tsx",
+				"keyword.operator.expression.typeof.tsx",
+				"variable.other.property.tsx",
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -150,6 +158,9 @@
 				"keyword.control.import.ts",
 				"keyword.control.export.ts",
 				"constant.numeric.decimal.ts",
+				"storage.type.type.ts",
+				"meta.parameter.object-binding-pattern.ts",
+				"storage.type.interface.ts",
 				// TSX
 				"entity.name.type.module.tsx",
 				"storage.type.function.tsx",
@@ -157,7 +168,10 @@
 				"storage.type.tsx",
 				"keyword.control.import.tsx",
 				"keyword.control.export.tsx",
-				"constant.numeric.decimal.tsx"
+				"constant.numeric.decimal.tsx",
+				"storage.type.type.tsx",
+				"meta.parameter.object-binding-pattern.tsx",
+				"storage.type.interface.tsx",
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -196,7 +210,10 @@
 				"variable.other.readwrite.ts",
 				"punctuation.accessor.ts",
 				"keyword.operator.spread.ts",
+				"keyword.operator.rest.tsx",
 				"punctuation.separator.key-value.ts",
+				"punctuation.definition.parameters.begin.ts",
+				"keyword.control.conditional.ts",
 				// TSX
 				"punctuation.definition.block.tsx",
 				"punctuation.definition.parameters.end.tsx",
@@ -205,7 +222,10 @@
 				"variable.other.readwrite.tsx",
 				"punctuation.accessor.tsx",
 				"keyword.operator.spread.tsx",
+				"keyword.operator.rest.tsx",
 				"punctuation.separator.key-value.tsx",
+				"punctuation.definition.parameters.begin.tsx",
+				"keyword.control.conditional.tsx",
 			],
 			"settings": {
 				"foreground": "#ff8500"
@@ -250,6 +270,8 @@
 				"entity.name.function.ts",
 				"variable.other.constant.ts",
 				"entity.name.type.class.ts",
+				"variable.object.property.ts",
+				"variable.other.object.ts",
 				// TSX
 				"meta.block.tsx",
 				"entity.name.tag.tsx",
@@ -258,6 +280,8 @@
 				"entity.name.function.tsx",
 				"variable.other.constant.tsx",
 				"entity.name.type.class.tsx",
+				"variable.object.property.tsx",
+				"variable.other.object.tsx",
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -298,8 +322,12 @@
 				"meta.jsx.children.jsx",
 				// Typescript
 				"meta.jsx.children.ts",
+				"support.type.primitive.ts",
+				"keyword.control.trycatch.ts",
 				// TSX
 				"meta.jsx.children.tsx",
+				"support.type.primitive.tsx",
+				"keyword.control.trycatch.tsx",
 			],
 			"settings": {
 				"foreground": "#ADFFCB",
@@ -347,7 +375,18 @@
 		// ==================== Reds ====================
 		{
 			"name": "Vivid Tangerine",
-			"scope": [],
+			"scope": [
+				// Typescript
+				"entity.name.type.ts",
+				"support.type.builtin.ts",
+				"punctuation.section.embedded.begin.ts",
+				"punctuation.section.embedded.end.tss",
+				// TSX
+				"entity.name.type.tsx",
+				"support.type.builtin.tsx",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
+			],
 			"settings": {
 				"foreground": "#F69D8D",
 			}
@@ -383,11 +422,21 @@
 				// JSX
 				"punctuation.terminator.statement.jsx",
 				// Typescipt
-				"punctuation.definition.parameters.begin.ts",
 				"punctuation.terminator.statement.ts",
+				"keyword.operator.type.ts",
+				"keyword.operator.type.annotation.ts",
+				"keyword.control.switch.ts",
+				"keyword.operator.arithmetic.ts",
+				"keyword.operator.logical.ts",
+				"new.expr.ts",
 				// TSX
-				"punctuation.definition.parameters.begin.tsx",
 				"punctuation.terminator.statement.tsx",
+				"keyword.operator.type.tsx",
+				"keyword.operator.type.annotation.tsx",
+				"keyword.control.switch.tsx",
+				"keyword.operator.arithmetic.tsx",
+				"keyword.operator.logical.tsx",
+				"new.expr.tsx",
 			],
 			"settings": {
 				"foreground": "#F36B53",
@@ -411,10 +460,12 @@
 				"meta.tag.ts",
 				"meta.tag.without-attributes.ts",
 				"meta.var.expr.ts",
+				"meta.type.parameters.ts",
 				// TSX
-				"meta.tag.ts",
-				"meta.tag.without-attributes.ts",
-				"meta.var.expr.ts",
+				"meta.tag.tsx",
+				"meta.tag.without-attributes.tsx",
+				"meta.var.expr.tsx",
+				"meta.type.parameters.tsx",
 			],
 			"settings": {
 				"foreground": "#858585",
