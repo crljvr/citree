@@ -38,7 +38,6 @@
 		"button.background": "#faae2f",
 		// Panel
 		"panel.background": "#1f1f1f",
-		"panelSectionHeader.foreground": "#ff0000",
 		// Misc
 		"breadcrumb.foreground": "#faae2f",
 		"focusBorder": "#1f1f1f",
@@ -49,6 +48,9 @@
 		"list.focusBackground": "#faae2f",
 		"list.focusForeground": "#1f1f1f",
 		"list.inactiveFocusBackground": "#faae2f",
+		"editorSuggestWidget.background": "#1f1f1f",
+		"editorSuggestWidget.foreground": "#faae2f",
+		// "editorSuggestWidget.selectedBackground": "#313131",
 		// Debug
 		"debugToolBar.background": "#faae2f",
 		"debugIcon.startForeground": "#1f1f1f",
@@ -76,7 +78,7 @@
 				"meta.tag.attributes.js",
 				"meta.parameter.object-binding-pattern.js",
 				"entity.other.inherited-class.js",
-				"meta.jsx.children.js"
+				"meta.jsx.children.js",
 			],
 			"settings": {
 				"foreground": "#FBD188",
@@ -101,7 +103,8 @@
 				"entity.name.tag.yaml",
 				"entity.name.type.module.js",
 				"storage.type.function.arrow.js",
-				"storage.type.function.js"
+				"storage.type.function.js",
+				"variable.parameter.dart"
 			],
 			"settings": {
 				"foreground": "#faae2f",
@@ -133,7 +136,6 @@
 			"name": "Light Gray",
 			"scope": [
 				"meta.declaration.dart",
-				"keyword.declaration.dart",
 				"meta.object-literal.key.tsx",
 				"source.tsx",
 				"meta.import.tsx",
@@ -153,6 +155,7 @@
 				"variable.object.property.js",
 				"entity.name.tag.js",
 				"entity.name.function.js",
+				"source.dart"
 			],
 			"settings": {
 				"foreground": "#D6D6D6",
@@ -169,7 +172,6 @@
 		{
 			"name": "Sky Blue Crayola",
 			"scope": [
-				"storage.type.annotation.dart",
 				"meta.parameter.object-binding-pattern.tsx",
 				"meta.arrow.js",
 			],
@@ -191,6 +193,8 @@
 			"name": "Magic Mint",
 			"scope": [
 				"keyword.operator.assignment.js",
+				"keyword.operator.bitwise.dart",
+				"keyword.operator.comparison.dart"
 			],
 			"settings": {
 				"foreground": "#ADFFCB",
@@ -245,6 +249,13 @@
 				"punctuation.separator.key-value.mapping.yaml",
 				"punctuation.definition.block.sequence.item.yaml",
 				"variable.other.property.js",
+				"keyword.operator.closure.dart",
+				"punctuation.comma.dart",
+				"keyword.operator.ternary.dart",
+				"keyword.declaration.dart",
+				"punctuation.dot.dart",
+				"keyword.operator.assignment.dart",
+				"constant.language.dart"
 			],
 			"settings": {
 				"foreground": "#f47f6a",
@@ -253,7 +264,8 @@
 		{
 			"name": "Bittersweet",
 			"scope": [
-				"punctuation.definition.block.js"
+				"punctuation.definition.block.js",
+				"keyword.control.catch-exception.dart"
 			],
 			"settings": {
 				"foreground": "#F36B53",
@@ -266,7 +278,8 @@
 				"meta.tag.js",
 				"meta.tag.without-attributes.js",
 				"string.unquoted.plain.out.yaml",
-				"variable.other.object.js"
+				"variable.other.object.js",
+				"storage.type.annotation.dart",
 			],
 			"settings": {
 				"foreground": "#858585",
