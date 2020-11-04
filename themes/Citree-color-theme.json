@@ -170,6 +170,7 @@
 				"entity.name.function.dart",
 				// Javascripr
 				"punctuation.definition.block.js",
+				"punctuation.definition.parameters.begin.js",
 				"punctuation.definition.parameters.end.js",
 				"entity.name.function.js",
 				"support.class.component.js",
@@ -179,6 +180,7 @@
 				"punctuation.separator.key-value.js",
 				// JSX
 				"punctuation.definition.block.jsx",
+				"punctuation.definition.parameters.begin.jsx",
 				"punctuation.definition.parameters.end.jsx",
 				"entity.name.function.jsx",
 				"support.class.component.jsx",
@@ -377,10 +379,8 @@
 			"name": "Bittersweet",
 			"scope": [
 				// Javascipt
-				"punctuation.definition.parameters.begin.js",
 				"punctuation.terminator.statement.js",
 				// JSX
-				"punctuation.definition.parameters.begin.jsx",
 				"punctuation.terminator.statement.jsx",
 				// Typescipt
 				"punctuation.definition.parameters.begin.ts",
