@@ -45,12 +45,6 @@
 		"list.activeSelectionForeground": "#1f1f1f",
 		"list.inactiveSelectionBackground": "#faae2f",
 		"list.inactiveSelectionForeground": "#1f1f1f",
-		"list.focusBackground": "#faae2f",
-		"list.focusForeground": "#1f1f1f",
-		"list.inactiveFocusBackground": "#faae2f",
-		"editorSuggestWidget.background": "#1f1f1f",
-		"editorSuggestWidget.foreground": "#faae2f",
-		// "editorSuggestWidget.selectedBackground": "#313131",
 		// Debug
 		"debugToolBar.background": "#faae2f",
 		"debugIcon.startForeground": "#1f1f1f",

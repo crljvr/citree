@@ -2,7 +2,7 @@
     "name": "citree",
     "displayName": "citree",
     "description": "A citrus inspired dark theme for vs code",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "engines": {
         "vscode": "^1.50.0"
     },
