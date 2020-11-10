@@ -128,6 +128,9 @@
 			"scope": [
 				// Dart
 				"support.class.dart",
+				"keyword.other.import.dart",
+				"keyword.declaration.dart",
+				"keyword.declaration.dart",
 				// JSON
 				"string.quoted.double.json",
 				// Markdown
@@ -252,7 +255,8 @@
 			"scope": [
 				// Dart
 				"meta.declaration.dart",
-				"keyword.declaration.dart",
+				"support.class.dart",
+				"source.dart",
 				// JSON
 				"string.json",
 				// .ignore
@@ -316,10 +320,7 @@
 		// ==================== Blues ====================
 		{
 			"name": "Sky Blue Crayola",
-			"scope": [
-				// Dart
-				"storage.type.annotation.dart",
-			],
+			"scope": [],
 			"settings": {
 				"foreground": "#6DDFF4"
 			}
@@ -361,6 +362,7 @@
 				"variable.language.dart",
 				"storage.modifier.dart",
 				"punctuation.terminator.dart",
+				"constant.language.dart",
 				// JSON
 				"meta.structure.dictionary.json",
 				// Javascript
@@ -454,6 +456,13 @@
 		{
 			"name": "Bittersweet",
 			"scope": [
+				"punctuation.comma.dart",
+				"punctuation.dot.dart",
+				"keyword.operator.assignment.dart",
+				"keyword.operator.logical.dart",
+				"keyword.operator.ternary.dart",
+				"keyword.operator.comparison.dart",
+				"keyword.operator.closure.dart",
 				// Javascipt
 				"punctuation.terminator.statement.js",
 				// JSX
@@ -500,6 +509,8 @@
 		{
 			"name": "Light",
 			"scope": [
+				// Dart
+				"storage.type.annotation.dart",
 				// Yaml
 				"string.unquoted.plain.out.yaml",
 				// Javascript
